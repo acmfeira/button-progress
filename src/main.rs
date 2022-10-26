@@ -15,7 +15,7 @@ fn main() {
     
     let app = App::default();
     let mut wind = Window::default()
-    .with_size(400, 250)
+    .with_size(400, 200)
     .center_screen();
 
     let mut bt = Button::new(0, 10, 80, 30, "Start")
@@ -27,7 +27,7 @@ fn main() {
 
     });
 
-    let progress = Progress::default().with_size(300, 25).center_of_parent();
+    let progress = Progress::default().with_size(300, 40).center_of_parent();
 
     wind.end();
     wind.show();
